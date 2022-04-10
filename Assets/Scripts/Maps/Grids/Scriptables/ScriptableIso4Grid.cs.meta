@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1d8200bf507e77040b3edb65ba986301
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - nodePrefab: {fileID: 1400031219047535523, guid: 0d5971943357ae24f9236d66c831779e, type: 3}
+  - groundNodeModelPrefab: {instanceID: 0}
+  - obstacleNodeModelPrefab: {instanceID: 0}
+  - borderPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

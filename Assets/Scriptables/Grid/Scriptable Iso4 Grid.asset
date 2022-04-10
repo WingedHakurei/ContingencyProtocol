@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8200bf507e77040b3edb65ba986301, type: 3}
+  m_Name: Scriptable Iso4 Grid
+  m_EditorClassIdentifier: 
+  nodePrefab: {fileID: 1400031219047535523, guid: 0d5971943357ae24f9236d66c831779e, type: 3}
+  groundNodeModelPrefab: {fileID: 4775227471019367469, guid: 73879cf933f0f8746bc67a4191513733, type: 3}
+  obstacleNodeModelPrefab: {fileID: 3954105622877386351, guid: 743ae5606eaf63d41b65e77dc38e9df9, type: 3}
+  borderPrefab: {fileID: 3787092111982027071, guid: 9ce8f13f6d8fcac43957a813dc4a94f1, type: 3}
+  obstacleWeight: 4
+  gridWidth: 20
+  gridHeight: 20
