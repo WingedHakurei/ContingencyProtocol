@@ -77,9 +77,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-    velocity: 5
+    velocity: 10
     hp: 50
-  state: 1
   damage: 20
 --- !u!95 &5742952745848293155
 Animator:

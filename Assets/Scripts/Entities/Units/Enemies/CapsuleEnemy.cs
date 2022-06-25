@@ -1,3 +1,4 @@
+using System.Linq;
 using KomeijiRai.ContingencyProtocol.Controllers;
 
 namespace KomeijiRai.ContingencyProtocol.Entities.Units.Enemies
@@ -15,7 +16,7 @@ namespace KomeijiRai.ContingencyProtocol.Entities.Units.Enemies
         }
         private void RealAttack()
         {
-            if (curNode == targetNode)
+            if (curNode == targetNode || targetNode.Neighbors.Contains(curNode))
                 PlayerInputManager.Instance.PlayerRobot.TakeDamage(damage);
         }
     }

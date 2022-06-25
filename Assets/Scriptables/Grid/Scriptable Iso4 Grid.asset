@@ -16,6 +16,6 @@ MonoBehaviour:
   groundNodeModelPrefab: {fileID: 4775227471019367469, guid: 73879cf933f0f8746bc67a4191513733, type: 3}
   obstacleNodeModelPrefab: {fileID: 3954105622877386351, guid: 743ae5606eaf63d41b65e77dc38e9df9, type: 3}
   borderPrefab: {fileID: 3787092111982027071, guid: 9ce8f13f6d8fcac43957a813dc4a94f1, type: 3}
-  obstacleWeight: 4
+  obstacleWeight: 3
   gridWidth: 20
   gridHeight: 20

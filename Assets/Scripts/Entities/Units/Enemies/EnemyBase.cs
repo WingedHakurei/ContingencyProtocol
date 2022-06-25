@@ -107,7 +107,7 @@ namespace KomeijiRai.ContingencyProtocol.Entities.Units.Enemies
                 }
                 rb.position = nextNode.Coord.RealPosition;
                 curNode = nextNode;
-                yield return ConstUtils.WAIT_FOR_500_MS;
+                yield return ConstUtils.WAIT_FOR_100_MS;
                 hasReachedNext = true;
             }
         }
