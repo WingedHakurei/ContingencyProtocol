@@ -33,7 +33,7 @@ namespace KomeijiRai.ContingencyProtocol.Entities.Units.Robots
                 isMoving = true;
                 animator.SetBool("IsMoving", true);
             }
-            rb.velocity = dir * data.velocity;
+            rb.linearVelocity = dir * data.velocity;
             animator.SetFloat("InputX", dir.x);
             animator.SetFloat("InputY", dir.z);
         }
@@ -41,7 +41,7 @@ namespace KomeijiRai.ContingencyProtocol.Entities.Units.Robots
         {
             if (isMoving)
             {
-                rb.velocity = Vector3.zero;
+                rb.linearVelocity = Vector3.zero;
                 isMoving = false;
                 animator.SetBool("IsMoving", false);
             }

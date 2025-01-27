@@ -12,7 +12,7 @@ namespace KomeijiRai.ContingencyProtocol.Entities.Units.Bullets
         }
         protected override void Move()
         {
-            rb.velocity = transform.forward * data.velocity;
+            rb.linearVelocity = transform.forward * data.velocity;
         }
         private void OnTriggerEnter(Collider other)
         {
