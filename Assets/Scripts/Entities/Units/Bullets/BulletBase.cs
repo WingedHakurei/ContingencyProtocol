@@ -18,7 +18,7 @@ namespace KomeijiRai.ContingencyProtocol.Entities.Units.Bullets
         {
             startTime = Time.time;
             if (rb != null)
-                rb.linearVelocity = Vector3.zero;
+                rb.velocity = Vector3.zero;
 
         }
 
